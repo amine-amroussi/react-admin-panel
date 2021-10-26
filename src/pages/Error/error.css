@@ -1,0 +1,16 @@
+.error {
+  flex: 4;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.backHome {
+  margin-top: 15px;
+  background-color: teal;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+}

@@ -1,0 +1,9 @@
+.productList {
+  flex: 4;
+  padding: 20px;
+}
+
+.productImage {
+  width: 30px;
+  height: 40px;
+}

@@ -1,0 +1,147 @@
+.userInfo {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userAddButton {
+  width: 100px;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.userContainer {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  border-radius: 10px;
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.94);
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShowTopTitle {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userShowTitle {
+  font-weight: 300;
+  color: gray;
+}
+h5.userShowTitle {
+  margin: 10px 0;
+  font-size: 14px;
+  color: rgb(143, 143, 143);
+  font-weight: bold;
+}
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.useShowIcon {
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.userUpdateForm {
+  display: flex;
+}
+
+.uploadImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userUpdateLeft {
+  flex: 4;
+}
+.userUpdateRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userUpdateTitle {
+  margin-bottom: 10px;
+}
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.userUpdateItem label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.userUpdateInput {
+  outline: none;
+  padding: 7px 15px;
+  border: none;
+  border-bottom: 1px solid rgba(150, 149, 149, 0.94);
+  font-size: 16px;
+}
+.userUpdateUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uploadInput {
+  visibility: hidden;
+}
+.uploadBtn {
+  text-align: center;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.uploadIcon {
+  font-size: 16px;
+}
+
+.updateBtn {
+  background-color: teal;
+  color: white;
+  width: 100px;
+}
